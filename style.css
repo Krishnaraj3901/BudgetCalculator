@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-image: url(https://wallpapercave.com/wp/wp7470613.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+.container{
+  width: 350px;
+  padding: 50px 50px;
+  margin: 50px auto;
+  background-color: rgb(198, 205, 205);
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 5px 20px 30px rgba(0,0,0,0.1);
+}
+h1{
+  font-size: 30px;
+  color: rgb(27, 179, 65);
+  margin-bottom: 20px;
+  font-weight: 30px;
+  font-style: italic;
+}
+form input{
+  width: 100%;
+  outline: none;
+  border: 2px solid beige;
+  padding: 12px 5px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background: rgb(220, 220, 218);
+}
+button{
+  font-size: 15px;
+  margin-top: 10px;
+  padding: 10px 0;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  width: 90%;
+  color: #ffff;
+  cursor: pointer;
+  background: rgb(66, 184, 74);
+}
+button:hover{
+  background: rgb(104, 129, 104);
+}
+input:focus{
+  border: 2px solid rgb(37, 166, 52);
+}
+.terms{
+  height: 30px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.terms label{
+  font-size: 15px;
+}
+.terms a{
+  color: rgb(32, 168, 94);
+  text-decoration: none;
+}
+.member{
+  color: #23b442;
+  text-decoration: none;
+}
+.recover{
+  text-align: right;
+  font-size: 15px;
+  margin: 10px 12px 0 0;
+}
+.recover a{
+  text-decoration: none;
+  color: #2aa541;
+}
